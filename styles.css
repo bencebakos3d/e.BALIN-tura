@@ -1,0 +1,33 @@
+@import url("https://fonts.google.com/specimen/Montserrat");
+
+html {
+    background-color: #2D2D2D;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: #EAE9C4;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 300;
+}
+
+iframe {
+    width: 1280px;
+    height: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+link {
+    width: 1000px;
+}
