@@ -1,1 +1,1 @@
-# Nuage-seat
+3D visualization of the e.BALIN electric fishing boat.  
