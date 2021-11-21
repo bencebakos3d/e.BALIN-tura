@@ -21,6 +21,7 @@ html {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 .header:hover {
@@ -37,7 +38,6 @@ html {
     align-items: center;
 }
 
-
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -47,6 +47,7 @@ html {
     align-items: center;
     margin: 0px;
     padding: 0px;
+    background-color: #111111;
 }
 
 .middlestrip {
@@ -57,13 +58,14 @@ html {
     padding: 0px;
 }
 
-h1 {
+.headerelement {
     font-size: 20px;
     color: #e6e6e6;
     text-align: center;
     font-family: Montserrat;
     font-weight: 300;
     margin-left: 3rem;
+    text-decoration: none;
 }
 .ebalin-logo {
     font-size: 40px;
@@ -82,7 +84,63 @@ iframe {
     margin-right: auto;
 }
 
+.video-container {
+    width: 1920px;
+    height: 1080px;
+    top: 0;
+}
 
 link {
     width: 1000px;
+}
+
+
+
+#myVideo {
+    width: 1920px;
+    height: 1080px;
+    z-index: -1;
+    padding: 0;
+    margin: 0;
+}
+
+.paragraph_bottom {
+    color: #e6e6e6;
+    background-color: #111111;
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.data-paragraph {
+    width: 60%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.fullhd-photo {
+    width: 1920px;
+    height: 1080px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.horizontal-strip {
+    width: 100%;
+    height: 300px;
+    background-color: #111111;
+    color: #e6e6e6;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 2.5rem;
 }
