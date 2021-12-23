@@ -63,7 +63,7 @@ html {
 
 .headerelement {
     font-size: 1.4rem;
-    color: #e6e6e6;
+    color: #aaaaaa;
     text-align: center;
     font-weight: 300;
     margin-left: 3rem;
@@ -71,19 +71,14 @@ html {
 }
 .ebalin-logo {
     font-size: 2.5rem;
-    color: #e6e6e6;
+    color: #aaaaaa;
     text-align: center;
     font-weight: 300;
     margin-right: 5rem;
     text-decoration: none;
 }
 
-iframe {
-    width: 1280px;
-    height: 720px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 .video-container {
     width: 100%;
