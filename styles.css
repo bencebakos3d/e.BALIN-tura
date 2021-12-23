@@ -11,7 +11,7 @@
     --secondary-content: #aaaaaa; 
     --tetriary-content: #3a38d3; 
     --global-border-rad: 6vh;
-    --global-padding: 10vw;
+    --global-padding: 8vw;
 }
 html {
     margin: 0;
@@ -32,6 +32,7 @@ h1 {
     font-family: Montserrat;
     font-weight: 500;
 }
+
 
 
 /* MENU STYLES */
@@ -76,14 +77,14 @@ h1 {
 }
 
 .menu-element {
-    font-size: 1.4rem;
+    font-size: 1.3vw;
     text-align: center;
     font-weight: 300;
-    margin-left: 3rem;
+    margin-left: 3.5vw;
     text-decoration: none;
 }
 .ebalin-menu-logo {
-    font-size: 2.5rem;
+    font-size: 2.3vw;
     text-align: center;
     font-weight: 300;
     margin-right: 5rem;
@@ -152,6 +153,47 @@ h1 {
     justify-content: center;
     align-items: center;
     font-size: 2.5rem;
+}
+
+
+.data-wrapper {
+    display:flex;
+    flex-direction: row;
+}
+
+.ebalin-data-photo > img {
+    border-top-right-radius: var(--global-border-rad);
+    border-bottom-right-radius: var(--global-border-rad);
+    width: 70vw;
+}
+.ebalin-data-text {
+    color: var(--primary-content);
+    padding-right: var(--global-padding);
+    padding-left: 5vw;
+    font-size: 2.2vw;
+    font-family: Montserrat;
+}
+
+@keyframes fadeInRight {
+    0% {
+       opacity: 0;
+       transform: translateX(300px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ }
+
+ .ebalin-data-text > p {
+    animation: fadeInRight 1s ease-in-out;
+ }
+
+.ebalin-data-detail {
+    font-size: 1.2vw;
+    color: var(--secondary-content);
+    margin-top: -4vh;
+    margin-bottom: 5vh;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
