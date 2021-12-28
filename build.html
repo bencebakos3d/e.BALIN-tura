@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <?php require_once('includes/head.php'); ?>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./build.css">
+    <title>Build</title>
 </head>
-
 <body>
-    <div class="container">
-        <div class='header'>
-            <div class='headerlinks'>
-                <a href="index.html" class='ebalin-logo'>e.Balin</a>
-                <a href="build.html" class='headerelement'>Build</a>
-                <a href="" class='headerelement'>About</a>
-                <a href="" class='headerelement'>Contact</a>
-            </div>
+    <section class="section-menu">
+        <div class='menu-wrapper'>
+            <a href="index.html" class='ebalin-menu-logo'><span style="color: var(--tetriary-content)">e</span>.Balin</a>
+            <a href="build.html" class='menu-element'>Build</a>
+            <a href="about.html" class='menu-element'>About</a>
+            <a href="" class='menu-element'>Contact</a>
         </div>
-
-        <div class="middlestrip">
+    </section>
+    <section class="section-video">
+        <div class='video-container'>
+            <video autoplay muted loop id="myVideo">
+                <source src="assets/video/droneaerial.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    <section class= "section-intro">
+        <h1>Configurator</h1>
+        <div class='about-wrapper'>
             <iframe src="https://playcanv.as/b/MhRTaFwD/ " scrolling="no" frameborder="0"></iframe>
         </div>
-    </div>
+    </section>
 </body>
 
 </html>

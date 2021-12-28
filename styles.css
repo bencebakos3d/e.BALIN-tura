@@ -32,7 +32,9 @@ h1 {
     font-family: Montserrat;
     font-weight: 500;
 }
-
+section {
+    background-color: var(--background-dark);
+}
 
 
 /* MENU STYLES */
@@ -53,17 +55,17 @@ h1 {
     font-family: Montserrat;
 }
 .menu-wrapper > a {
-    color: var(--secondary-content);
+    color: #66666694;
     
 }
 
 .menu-wrapper:hover {
     background-color: var(--background-dark-transparent);
-    transition: 0.5s;
+    transition: ease-in-out 0.5s;
 }
 .menu-wrapper:hover > a {
     color: var(--primary-content);
-    transition: 0.5s;
+    transition: ease-in-out 0.5s;
 }
 
 
@@ -102,6 +104,7 @@ h1 {
     width: 100%;
     margin: 0px;
     padding: 0px;
+    position: fixed;
 }
 
 .section-intro {
