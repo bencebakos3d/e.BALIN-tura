@@ -1,0 +1,32 @@
+---
+import Menu from '../components/Menu.astro'
+---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./build.css">
+    <title>Build</title>
+</head>
+<body>
+    <Menu />
+    <section class="section-video">
+        <div class='video-container'>
+            <video autoplay muted loop id="myVideo">
+                <source src="assets/video/droneaerial.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    <section class= "section-configurator">
+        <div class= "intro-wrapper">
+            <h1>Configurator</h1>
+        </div>
+        <div class='configurator-wrapper'>
+            <iframe src="https://playcanv.as/b/MhRTaFwD/ " scrolling="no" frameborder="0"></iframe>
+        </div>
+    </section>
+</body>
+
+</html>

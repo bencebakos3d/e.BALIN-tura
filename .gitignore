@@ -1,2 +1,17 @@
-assets/video/animFinalLowRes.mp4
-assets/video/droneaerial.mp4
+# build output
+dist
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
